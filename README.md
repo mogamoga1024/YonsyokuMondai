@@ -1,4 +1,6 @@
-# ソースコード
+# 【四色問題】海を含めて日本を4色で塗り分ける
+
+## ソースコード
 
 ```javascript:main.js
 const colors = ["red", "blue", "green", "yellow"];
@@ -110,7 +112,7 @@ for (let code in prefs) {
 
 ```
 
-# 実行
+## 実行
 
 ```bash
 0,海,red
@@ -163,11 +165,11 @@ for (let code in prefs) {
 47,沖縄県,blue
 ```
 
-# Excelで確認してみる
+## Excelで確認してみる
 
 <img width="800" alt="japan.png" src="./img/japan.png">
 
-# 参考資料
+## 参考資料
 
 - [隣接都道府県・隣接県を配列で(都道府県コード準拠)](https://qiita.com/Alfredo/items/7eeef4b64b8c84c90309)
 - [全国都道府県の組合せ隣接ブロックの数え上げ・索引リストの公開 > 【地続きの隣接のみの場合】 > 隣接リスト](http://www-lsm.naist.jp/~jkawahara/prefdata/adj_list_pref.txt)
